@@ -1,7 +1,7 @@
-FROM amazonlinux:2.0.20220316.0
+FROM amazonlinux:2.0.20220606.1
 
-ENV ODBC_VERSION=1.4.49.1000
-ENV RSQL_VERSION=1.0.4
+ENV ODBC_VERSION=1.4.56.1000
+ENV RSQL_VERSION=1.0.5
 
 RUN yum update -y && \
     yum install -y unixODBC less && \
