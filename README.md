@@ -2,6 +2,12 @@
 
 Docker image to use [Amazon Redshift RSQL](https://docs.aws.amazon.com/redshift/latest/mgmt/rsql-query-tool.html) to interact with Redshift clusters from the command-line.
 
+Build the docker image locally:
+
+```shell
+docker build --platform=linux/x86_64 . --tag=redshift:latest
+```
+
 Example command to run the container:
 
 ```shell
